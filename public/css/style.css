@@ -1242,10 +1242,7 @@ footer p {
 
     .hamburger-menu {
         display: block;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        margin-left: 0;
+        margin-left: 20px;
     }
 
     #mobile-nav {
@@ -1477,10 +1474,7 @@ footer p {
 
     .hamburger-menu {
         display: block;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        margin-left: 0;
+        margin-left: 20px;
     }
 
     #mobile-nav {
