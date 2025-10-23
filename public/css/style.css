@@ -1057,6 +1057,242 @@ footer p {
     }
 }
 
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .about-vm-image {
+        height: auto;
+    }
+
+    .about-vm-image img {
+        height: auto;
+        object-fit: initial;
+    }
+
+.about-page-title {
+    bottom: 15px;
+    left: 60px;
+}
+
+    .main-header {
+        height: 70px;
+        padding: 0 20px;
+    }
+
+    .cta-button {
+        display: flex;             
+        width: 100%;               
+        max-width: 300px;          
+        margin: 0 auto;            
+        justify-content: center;   
+        align-items: center;       
+        font-size: 14px;           
+        padding: 8px 12px;
+        text-align: center;        
+        grid-column: unset;        
+        grid-row: unset;
+    }
+
+    .header-logo {
+        width: 50px;
+        height: 50px;
+        margin-left: 0;
+    }
+
+    .main-header h1 {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .register-btn {
+        margin-right: 0;
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+    .gradient-box {
+        position: relative;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: auto;
+        margin-top: -60px;
+        height: auto;
+        padding: 25px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .gradient-box::before {
+        display: none;
+    }
+
+    .box-text {
+        width: 100%;
+        font-size: 22px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .action-button {
+        width: 100%;
+        max-width: 250px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .section-2,
+    .section-3,
+    .section-4,
+    .section-5,
+    .section-6 {
+        padding: 60px 20px;
+    }
+
+    .section-2 h2,
+    .section-3 h2,
+    .section-4 h2,
+    .section-5 h2,
+    .section-6 h2 {
+        font-size: 22px;
+    }
+
+    .section-2 p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 0 10px;
+    }
+
+    .service-card {
+        height: 220px;
+    }
+
+    .partner-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .cta-box {
+        margin-top: 60px;
+        padding: 25px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .cta-box h3 {
+        grid-column: 1;
+        grid-row: 1;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .cta-box p {
+        grid-column: 1;
+        grid-row: 2;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .cta-button {
+        grid-column: 1;
+        grid-row: 3;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .article-grid {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .contact-buttons {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .contact-btn {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    footer {
+        font-size: 13px;
+        padding: 15px;
+    }
+    .main-header {
+        position: fixed;
+    }
+
+    .main-nav,
+    .search-box,
+    .main-nav-about,
+    .main-nav-service {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: 0;
+    }
+
+    #mobile-nav {
+        top: 60px;
+    }
+
+    .about-profile-section {
+        padding: 60px 20px;
+    }
+
+    .about-container {
+        width: 80%; 
+    }
+
+    .about-section-title {
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+
+    .about-description {
+        font-size: 15px;
+        line-height: 26px;
+        margin-bottom: 40px;
+    }
+
+    .about-vision-mission {
+        gap: 30px; 
+        margin-top: 30px;
+    }
+
+    .about-vm-image {
+        height: auto; 
+        margin-bottom: 40px;
+    }
+
+    .about-vm-title {
+        font-size: 19px;
+        margin-bottom: 12px;
+    }
+
+    .about-vm-text {
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 80px;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 992px) {
 
     .about-vm-image {
@@ -1380,7 +1616,7 @@ footer p {
 
 
 
-@media (min-width: 1200px) and (max-width: 1399px) {
+@media (min-width: 1200px) and (max-width: 1900px) {
     .header-logo {
         margin-left: 0;
     }
